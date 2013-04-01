@@ -20,9 +20,7 @@ int main(){
 
 	for(int i = 1; i <= inputCount; ++i){
 		cin >> tempInput1 >> tempInput2;
-				//cout << tempInput1 << " " << tempInput2 << endl;
 		string tempInput3 = tempInput1 + tempInput2;
-				//cout << tempInput3 << endl;
 		if (isPalindromic(tempInput1) || isPalindromic(tempInput2) || isPalindromic(tempInput3))
 		{
 			cout << "Unlucky! " << "Unlucky!" << endl;
