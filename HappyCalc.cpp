@@ -7,6 +7,7 @@ The problem set can be found on my github page
  */
 
 #include <iostream>
+#include <sstream>
 using namespace std;
 bool isPalindromic(string input);
 int main(){
@@ -25,10 +26,11 @@ int main(){
 		{
 			cout << "Unlucky! " << "Unlucky!" << endl;
 		}else{
-			int numeric1 = atoi(tempInput1.c_str());
-			int numeric2 = atoi(tempInput2.c_str());
-			int sum = numeric2 + numeric1;
-			cout << sum << endl;
+			stringstream s (tempInput1+ " " + tempInput2);
+			int numeric1;
+			int numeric2;
+			s >> numeric1 >> numeric2;
+			cout << numeric1 + numeric2 << endl;
 		}
 	}
 	return 0;
