@@ -20,7 +20,7 @@ struct node {
 	struct node *next;
 };
 
-
+// We can also include a "last" ptr so that we dont have to have a find last function; however, it would take away from what a link list truly is -- a useless tool to show new coders how lucky they are that they can use Arraylists and functions like it.
 
 struct node *head;      
 
