@@ -1,3 +1,17 @@
+/*
+You can use this to implement Link Lists in your C code
+
+Restrictions are:
+	I have already made a "Head" for you. Use this head. 
+
+	Poor commenting. This code is very simple to read and I have not commented the code so that anyone using it, has to read it. 
+
+	If you have never implemented link lists, I recommend you do so first by hand.
+
+@author: Joubin Jabbari
+*/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -22,8 +36,6 @@ void isNull(struct node* head){
 }
 
 
-
-
 struct node* findLastNode(struct node *someStruct){
 	//struct node *temp;
 	if (someStruct == NULL)
@@ -36,7 +48,6 @@ struct node* findLastNode(struct node *someStruct){
 	}else {
 		return findLastNode(someStruct->next);
 	}
-	//return temp;
 }
 
 
@@ -59,14 +70,14 @@ void addNode(int x, struct node *head){
 		initHead(x);
 	}else{
 
-	struct node *next;
-	next = (struct node*)malloc(sizeof(struct node));
+		struct node *next;
+		next = (struct node*)malloc(sizeof(struct node));
 
-	next->x = x;
-	next->next = NULL;
-	findLastNode(head)->next = next;
+		next->x = x;
+		next->next = NULL;
+		findLastNode(head)->next = next;
 
-}
+	}
 }
 
 struct node* findNode(int lookingFor, struct node *headOfNode){
@@ -102,19 +113,5 @@ void removeNode(struct node *toRemove){
 	beforeNode->next = afterNode;
 
 	free(toRemove);
-
-}
-
-
-
-int main()
-{
-	// printf("%d\n", head->x);
-	for (int i = 0; i < 100; ++i)
-	{
-		addNode(i, head);
-	}
-	removeNode(findNode(99, head));
-	printlist(head);
 
 }
