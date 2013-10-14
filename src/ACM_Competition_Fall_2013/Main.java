@@ -8,7 +8,7 @@ package ACM_Competition_Fall_2013;
  */
 public class Main {
     public static void main(String[] args) {
-//        A aDemo = new A();
+        A aDemo = new A();
 //        B bDemo = new B();
 //        C cDemo = new C();
 //        D dDemo = new D();

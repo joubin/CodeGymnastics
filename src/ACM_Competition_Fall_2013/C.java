@@ -29,3 +29,4 @@ public class C {
         System.out.println(total);
     }
 }
+
