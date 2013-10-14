@@ -1,6 +1,5 @@
-package testset;
+package ACM_Competition_Fall_2013;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -9,8 +8,8 @@ import java.util.Scanner;
  * Date: 10/13/13
  * Time: 3:06 PM
  */
-public class d {
-    public d() {
+public class D {
+    public D() {
         Scanner s = new Scanner(System.in);
 
         String f = s.nextLine();

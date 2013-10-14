@@ -1,4 +1,4 @@
-package testset;
+package ACM_Competition_Fall_2013;
 
 import java.util.Scanner;
 
@@ -8,8 +8,8 @@ import java.util.Scanner;
  * Date: 10/13/13
  * Time: 4:34 PM
  */
-public class a {
-    public a() {
+public class A {
+    public A() {
         Scanner s = new Scanner(System.in);
         int numInputs = s.nextInt();
         int odds = 0, evens = 0;

@@ -1,4 +1,4 @@
-package testset;
+package ACM_Competition_Fall_2013;
 
 /**
  * Created with IntelliJ IDEA.
@@ -8,10 +8,10 @@ package testset;
  */
 public class Main {
     public static void main(String[] args) {
-//        a aDemo = new a();
-//        b bDemo = new b();
-//        c cDemo = new c();
-//        d dDemo = new d();
+//        A aDemo = new A();
+//        B bDemo = new B();
+//        C cDemo = new C();
+//        D dDemo = new D();
 //        f fDemo = new f();
     }
 }

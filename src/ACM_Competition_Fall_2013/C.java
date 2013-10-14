@@ -1,4 +1,4 @@
-package testset;
+package ACM_Competition_Fall_2013;
 
 import java.util.Scanner;
 
@@ -8,8 +8,8 @@ import java.util.Scanner;
  * Date: 10/13/13
  * Time: 4:58 PM
  */
-public class c {
-    public c() {
+public class C {
+    public C() {
 
         int total = 0;
 
