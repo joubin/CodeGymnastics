@@ -1,4 +1,4 @@
-package ACM_Competition_Fall_2013;
+package ACM_Competition_Spring_2013.ACM_Competition_Spring_2013;
 
 import java.util.Scanner;
 
@@ -21,12 +21,12 @@ public class A {
             }
         }
 
-        System.out.println("Number of odds: " + odds);
-        System.out.println("Number of evens: " + evens);
-        System.out.print("The Winner is ");
+        System.out.println("" + odds);
+        System.out.println("" + evens);
+        System.out.print("");
         if (evens > odds) {
-            System.out.print("Joe");
-        }else System.out.println("Sarah");
+            System.out.print("");
+        }else System.out.println("");
 
     }
 }

@@ -1,3 +1,5 @@
+package ACM_Competition_Spring_2013.ACM_Competition_Spring_2013;
+
 import java.util.Scanner;
 
 

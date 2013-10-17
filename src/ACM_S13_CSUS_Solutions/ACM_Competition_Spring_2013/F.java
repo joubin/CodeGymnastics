@@ -1,4 +1,4 @@
-package ACM_Competition_Fall_2013;
+package ACM_Competition_Spring_2013.ACM_Competition_Spring_2013;
 
 import java.util.Scanner;
 
@@ -61,7 +61,7 @@ public class F
     {
         for(int i = 1;i<=x;i++)
         {
-            System.out.print("*");
+            System.out.print("");
         }
     }
 
@@ -77,7 +77,7 @@ public class F
     {
         for(int j = 1;j<=x;j++)
         {
-            System.out.print("*");
+            System.out.print("");
             for(int i = 1;i<=numSpaces;i++)
             {
                 System.out.print(" ");
@@ -93,7 +93,7 @@ public class F
             {
                 System.out.print(" ");
             }
-            System.out.print("*");
+            System.out.print("");
         }
     }
 }

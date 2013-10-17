@@ -1,4 +1,4 @@
-package ACM_Competition_Fall_2013;
+package ACM_Competition_Spring_2013.ACM_Competition_Spring_2013;
 
 import java.util.Scanner;
 
@@ -18,7 +18,7 @@ public class B {
             int total = a +b;
             if (isNotPlanadrom(""+total) && isNotPlanadrom(""+a) && isNotPlanadrom(""+b)){
                 System.out.println(total);
-            }else System.out.println("Unlucky! Unlucky!");
+            }else System.out.println("");
 
         }
     }
