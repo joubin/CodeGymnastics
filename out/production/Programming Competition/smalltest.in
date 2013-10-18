@@ -1,0 +1,21 @@
+3 5 4
+abc
+bca
+dac
+dbc
+cba
+(ab)(bc)(ca)
+abc
+(abc)(abc)(abc)
+(zyx)bc
+
+
+
+	000
+	001
+	010
+	011
+	100
+	101
+	110
+	111

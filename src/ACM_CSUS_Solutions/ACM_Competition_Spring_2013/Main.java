@@ -1,4 +1,4 @@
-package ACM_Competition_Spring_2013.ACM_Competition_Spring_2013;
+package ACM_Competitions.ACM_Competition_Spring_2013;
 
 /**
  * Created with IntelliJ IDEA.
