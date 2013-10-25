@@ -36,7 +36,7 @@ public class UsefulMethods
 				arr[i] = true;
 			}
 			
-			for(int i = 2; i < Math.sqrt(n); i++)
+			for(int i = 2; i <= Math.sqrt(n); i++)
 			{
 				for(int j = (int) Math.pow(i, 2); j <= n; j += i)
 				{
@@ -54,5 +54,22 @@ public class UsefulMethods
 		}
 		
 		return al;
+	}
+	
+	private static boolean isPrime(int n)
+	{		
+		if(n%2 == 0 && n != 2)
+		{
+			return false;
+		}
+		for(int i = 3; i <= Math.sqrt(n); i += 2)
+		{
+			if(n%i == 0)
+			{
+				return false;
+			}
+		}
+		
+		return true;
 	}
 }
