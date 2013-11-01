@@ -1,20 +1,4 @@
 ./cheat_sheets/CodeSnippets.java
-import java.io.BufferedInputStream;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.math.RoundingMode;
-import java.text.DecimalFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Scanner;
-import java.util.StringTokenizer;
-import java.util.regex.Pattern;
 
 
 public class CodeSnippets 
@@ -210,7 +194,6 @@ public class CodeSnippets
 	}
 }
 ./cheat_sheets/UsefulMethods.java
-import java.util.ArrayList;
 
 
 public class UsefulMethods 
@@ -288,9 +271,6 @@ public class UsefulMethods
 ./src/ACM_CSUS_Solutions/ACM_Competition_Fall_2012/CardCounter.java
 package ACM_Competitions.ACM_Competition_Fall_2012;
 
-import java.io.*;
-import java.net.URLDecoder;
-import java.util.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -342,9 +322,6 @@ public class CardCounter {
     }
 }
 ./src/ACM_CSUS_Solutions/ACM_Competition_Fall_2012/ChangeForADollar.java
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.Scanner;
 
 
 public class ChangeForADollar 
@@ -413,11 +390,6 @@ public class ChangeForADollar
 	}
 }
 ./src/ACM_CSUS_Solutions/ACM_Competition_Fall_2012/InIt.java
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Scanner;
 
 
 public class InIt
@@ -519,10 +491,6 @@ public class InIt
 	}
 }
 ./src/ACM_CSUS_Solutions/ACM_Competition_Fall_2012/LetsGetCritical.java
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.Scanner;
 
 
 
@@ -661,7 +629,6 @@ public class LetsGetCritical
 ./src/ACM_CSUS_Solutions/ACM_Competition_Fall_2012/Main.java
 package ACM_Competitions.ACM_Competition_Fall_2012;
 
-import java.io.IOException;
 
 /**
  * Created with IntelliJ IDEA.
@@ -678,10 +645,6 @@ public class Main {
     }
 }
 ./src/ACM_CSUS_Solutions/ACM_Competition_Fall_2012/ParallelPlotting.java
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.Scanner;
 
 
 public class ParallelPlotting 
@@ -800,9 +763,6 @@ package ACM_Competitions.ACM_Competition_Fall_2012;
 public class PlaceHolder {
 }
 ./src/ACM_CSUS_Solutions/ACM_Competition_Fall_2012/StopTheAliens.java
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.Scanner;
 
 
 public class StopTheAliens 
@@ -867,13 +827,6 @@ public class StopTheAliens
 	}
 }
 ./src/ACM_CSUS_Solutions/ACM_Competition_Fall_2012/TWOlympics.java
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.Scanner;
 
 
 public class TWOlympics 
@@ -983,10 +936,6 @@ public class TWOlympics
 	}
 }
 ./src/ACM_CSUS_Solutions/ACM_Competition_Fall_2013/Darts.java
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Scanner;
 
 
 public class p3 
@@ -1064,7 +1013,6 @@ public class p3
 	}
 }
 ./src/ACM_CSUS_Solutions/ACM_Competition_Fall_2013/Genome.java
-import java.util.Scanner;
 
 
 public class p4 {
@@ -1177,8 +1125,6 @@ public class p4 {
 	}
 }
 ./src/ACM_CSUS_Solutions/ACM_Competition_Fall_2013/KnightMove.java
-import java.util.ArrayList;
-import java.util.Scanner;
 
 
 public class p6 {
@@ -1300,8 +1246,6 @@ public class p6 {
 	}
 }
 ./src/ACM_CSUS_Solutions/ACM_Competition_Fall_2013/MorshtCode.java
-import java.util.ArrayList;
-import java.util.Scanner;
 
 
 public class p2 {
@@ -1349,7 +1293,6 @@ public class p2 {
 }
 }
 ./src/ACM_CSUS_Solutions/ACM_Competition_Fall_2013/Patterns.java
-import java.util.Scanner;
 
 
 public class p1
@@ -1402,8 +1345,6 @@ public class p1
 
 }
 ./src/ACM_CSUS_Solutions/ACM_Competition_Fall_2013/PcostickMoon.java
-import java.util.ArrayList;
-import java.util.Scanner;
 
 
 public class p5 {
@@ -1472,8 +1413,6 @@ public class p5 {
 }
 
 ./src/ACM_CSUS_Solutions/ACM_Competition_Fall_2013/pfinal.java
-import java.util.ArrayList;
-import java.util.Scanner;
 
 
 public class pfinal {
@@ -1502,7 +1441,6 @@ public class pfinal {
 
 }
 ./src/ACM_CSUS_Solutions/ACM_Competition_Fall_2013/SumN.java
-import java.util.Scanner;
 
 
 public class SumN 
@@ -1546,8 +1484,6 @@ public class SumN
 	}
 }
 ./src/ACM_CSUS_Solutions/ACM_Competition_Fall_2013/SumNBad.java
-import java.util.ArrayList;
-import java.util.Scanner;
 
 
 public class p8 {
@@ -1592,7 +1528,6 @@ public class p8 {
 ./src/ACM_CSUS_Solutions/ACM_Competition_Spring_2013/A.java
 package ACM_Competitions.ACM_Competition_Spring_2013;
 
-import java.util.Scanner;
 
 /**
  * Created with IntelliJ IDEA.
@@ -1625,7 +1560,6 @@ public class A {
 ./src/ACM_CSUS_Solutions/ACM_Competition_Spring_2013/B.java
 package ACM_Competitions.ACM_Competition_Spring_2013;
 
-import java.util.Scanner;
 
 /**
  * Created with IntelliJ IDEA.
@@ -1665,7 +1599,6 @@ public class B {
 ./src/ACM_CSUS_Solutions/ACM_Competition_Spring_2013/C.java
 package ACM_Competitions.ACM_Competition_Spring_2013;
 
-import java.util.Scanner;
 
 /**
  * Created with IntelliJ IDEA.
@@ -1698,7 +1631,6 @@ public class C {
 ./src/ACM_CSUS_Solutions/ACM_Competition_Spring_2013/D.java
 package ACM_Competitions.ACM_Competition_Spring_2013;
 
-import java.util.Scanner;
 
 /**
  * Created with IntelliJ IDEA.
@@ -1751,7 +1683,6 @@ public class D {
 ./src/ACM_CSUS_Solutions/ACM_Competition_Spring_2013/E.java
 package ACM_Competitions.ACM_Competition_Spring_2013;
 
-import java.util.Scanner;
 
 
 public class E 
@@ -1814,7 +1745,6 @@ public class E
 ./src/ACM_CSUS_Solutions/ACM_Competition_Spring_2013/F.java
 package ACM_Competitions.ACM_Competition_Spring_2013;
 
-import java.util.Scanner;
 
 public class F
 {
@@ -1914,7 +1844,6 @@ public class F
 ./src/ACM_CSUS_Solutions/ACM_Competition_Spring_2013/G.java
 package ACM_Competitions.ACM_Competition_Spring_2013;
 
-import java.util.Scanner;
 
 
 public class G 
@@ -1978,9 +1907,6 @@ public class Main {
     }
 }
 ./src/Random_Practice/TwoSteps.java
-import java.util.Scanner;
-import java.util.ArrayList; 
-import static java.lang.Math.*;
 
 public class TwoSteps {
 
